@@ -116,7 +116,7 @@
   ],
   "scripts": {
     "build": "tsx ./scripts/build.ts",
-    "test": "npm run test:workers && npm run test:react",
+    "test": "bun run test:workers && bun run test:react",
     "test:react": "vitest --run -c src/react-tests/vitest.config.ts",
     "test:workers": "vitest --run -c src/tests/vitest.config.ts",
     "test:e2e": "vitest --run -c src/e2e-tests/vitest.config.ts",

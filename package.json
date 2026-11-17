@@ -19,12 +19,12 @@
     "lint": "oxlint .",
     "typecheck": "tsx scripts/typecheck.ts",
     "check:exports": "tsx scripts/check-exports.ts",
-    "check": "sherif && pnpm run check:exports && oxfmt --check . && oxlint . && pnpm run typecheck",
+    "check": "sherif && bun run check:exports && oxfmt --check . && oxlint . && bun run typecheck",
     "test": "nx run-many -t test",
-    "ci": "oxfmt --write . && nx run-many -t build test && pnpm run check",
+    "ci": "oxfmt --write . && nx run-many -t build test && bun run check",
     "test:e2e": "nx run-many -t test:e2e --parallel=1",
-    "test:recovery:live": "RUN_DEPLOYED_E2E=1 pnpm --filter @cloudflare/ai-chat run test:e2e:deployed && RUN_DEPLOYED_E2E=1 pnpm --filter @cloudflare/agents-chat-recovery-probe run test:e2e:deployed",
-    "test:react": "pnpm --filter agents run test:react",
+    "test:recovery:live": "RUN_DEPLOYED_E2E=1 bun --filter @cloudflare/ai-chat run test:e2e:deployed && RUN_DEPLOYED_E2E=1 bun --filter @cloudflare/agents-chat-recovery-probe run test:e2e:deployed",
+    "test:react": "bun --filter agents run test:react",
     "prepare:playwright": "playwright install --with-deps chromium"
   },
   "license": "MIT",
@@ -73,5 +73,18 @@
     "wrangler": "^4.145.0",
     "zod": "^4.6.7"
   },
-  "packageManager": "pnpm@11.19.0"
+  "packageManager": "bun@1.4.5",
+  "workspaces": [
+    "agent-think",
+    "examples/*",
+    "examples/next/*",
+    "examples/next/harnesses/*",
+    "examples/next/tools/*",
+    "packages/*",
+    "voice-providers/*",
+    "guides/*",
+    "experimental/*",
+    "openai-sdk/*",
+    "site/*"
+  ]
 }
