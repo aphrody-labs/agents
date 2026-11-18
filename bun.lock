@@ -812,7 +812,7 @@
         "@modelcontextprotocol/server": "2.4.0",
         "@phosphor-icons/react": "^2.1.10",
         "agents": "*",
-        "hono": "^4.13.11",
+        "hono": "^4.13.16",
         "react": "^19.2.7",
         "react-dom": "^19.2.7",
         "zod": "^4.6.7",
@@ -1883,7 +1883,7 @@
         "@x402/fetch": "^2.17.0",
         "@x402/hono": "^2.17.0",
         "agents": "*",
-        "hono": "^4.13.11",
+        "hono": "^4.13.16",
         "nanoid": "^5.1.16",
         "react": "^19.2.7",
         "react-dom": "^19.2.7",
@@ -2231,7 +2231,7 @@
         "@earendil-works/pi-codemode": "~1.5.0",
         "@earendil-works/pi-durable": "~1.5.0",
         "@earendil-works/pi-schema": "~1.5.0",
-        "@earendil-works/pi-tui": "1.5.0",
+        "@earendil-works/pi-tui": "1.5.2",
         "@modelcontextprotocol/client": "2.4.0",
         "@modelcontextprotocol/conformance-v2": "npm:@modelcontextprotocol/conformance@0.2.0-alpha.12",
         "@modelcontextprotocol/sdk": "1.32.2",
@@ -2367,7 +2367,7 @@
       "version": "3.0.12",
       "devDependencies": {
         "agents": "^0.33.0",
-        "hono": "^4.13.11",
+        "hono": "^4.13.16",
       },
       "peerDependencies": {
         "agents": ">=0.17.1 <1.0.0",
@@ -2416,7 +2416,7 @@
         "@ai-sdk/react": "^4.0.0",
         "@chat-adapter/telegram": "^4.29.0",
         "@cloudflare/computer": "^0.10.0",
-        "agents": ">=0.28.0 <1.0.0",
+        "agents": ">=0.34.0 <1.0.0",
         "ai": "^7.0.0",
         "react": "^19.0.0",
         "zod": "^4.0.0",
@@ -3155,7 +3155,7 @@
 
     "@earendil-works/pi-telemetry": ["@earendil-works/pi-telemetry@1.5.2", "", {}, "sha512-m+cumjIqNh1aMISi/9ttcG3ZOwIdriPbz/eMyWmRMJCGa/WcgY1RX4lrb7HvsHhSfI/JUeBESA4nOCr8C3y5ow=="],
 
-    "@earendil-works/pi-tui": ["@earendil-works/pi-tui@1.5.0", "", { "dependencies": { "get-east-asian-width": "1.6.0", "marked": "18.0.11", "marked-cjk-friendly": "0.1.2" } }, "sha512-56KqrDVeLF18k+syppVbT35Ai1opbM44ot+sL7O3K40CaWwXCiwOpqEFugDBAILtAhseZh6uYIuYxPPOJHLFAA=="],
+    "@earendil-works/pi-tui": ["@earendil-works/pi-tui@1.5.2", "", { "dependencies": { "get-east-asian-width": "1.6.0", "marked": "18.0.11", "marked-cjk-friendly": "0.1.2" } }, "sha512-WK8ih+c88GWizaB79y7Pq3PV7ySf5VI1pZ1i/6aBBjDOAiG2EE3ojKjl+pxQqLfyQGnzHYu4VfakOBJgumuoyw=="],
 
     "@elevenlabs/elevenlabs-js": ["@elevenlabs/elevenlabs-js@2.79.0", "", { "dependencies": { "command-exists": "^1.2.9", "node-fetch": "^2.7.0", "ws": "^8.18.3" } }, "sha512-GBkWMKTU4T2oBDiffffekWQNZi6/HIXB1zAIi9thKHew6QBuqdttD6iVUDEzMRoKhmsRAvweE4mYi4ZlZ6T7qQ=="],
 
